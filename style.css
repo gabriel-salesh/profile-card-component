@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-image: url('/images/bg-pattern-top.svg'), url('/images/bg-pattern-bottom.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 36vh, 50vw 50vh;
+  background-color: hsl(185, 75%, 39%);
+}
+
+.profile-card {
+  max-width: 400px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fff;
+  background-image: url('/images/bg-pattern-card.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: auto;
+}
+
+.profile-card__image {
+  margin-bottom: 12px;
+  margin-top: 100px;
+  background: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.profile-card__header {
+  margin-bottom: 25px;
+}
+
+.profile-card__header > div {
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.profile-card__name {
+  margin-right: 9px;
+}
+
+.profile-card__age {
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+
+.profile-card__city {
+  color: hsl(227, 10%, 46%);
+}
+
+.profile-card__stats {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid hsl(210, 4%, 89%);
+}
+
+.profile-card__stats > * {
+  padding: 30px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.profile-card__stats span {
+  display: block;
+  font-size: 13px;
+  letter-spacing: 1.3px;
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+  margin-top: 7px;
+}
+
+.attribution {
+  margin-bottom: 10px;
+}
+
+.attribution a {
+  color: #000;
+}
+
+.attribution img {
+  width: 23px;
+}
+
+.github-link {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.github-link:hover {
+  transform: scale(1.02);
+}
+
+.github-link span {
+  margin-right: 5px;
+}
